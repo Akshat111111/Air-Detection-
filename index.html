@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Search</title>
+    <link rel="stylesheet" href="style.css">
+    
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- FONTAWSOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+  integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <section id="home">
+        <div class="card">
+            <div class="heading">
+                <h2 class="head">Pollution Detector</h2>
+            </div>
+            <div class="search">
+                <div>
+                    <label >City</label><br/>
+                    <input type="text" class="city">
+                </div>
+                <div>
+                    <label for="">State</label><br/>
+                    <input type="text" class="state">
+                </div>
+                <div>
+                    <label for="">Country</label><br/>
+                    <input type="text" class="country">
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+            <div id="display" class="display">
+                <h2 class="aq"></h2>
+                <div class="concern-level">
+                    <h2 class="level"></h2>
+                </div>
+            </div>
+        </div>
+       
+       
+    </section>
+    <section id="pollutants">
+        <h1 style="margin: 1em;">Major Pollutants</h1>
+        <div class="pollutants">
+            <div class="pol pol-1">
+                <h3 class="o3"></h3>
+                <h3>Ozone</h3>
+            </div>
+            <div class="pol pol-2">
+                <h3 class="co"></h3>
+                <h3>CO</h3>
+            </div>
+            <div class="pol pol-3">
+                <h3 class="no2"></h3>
+                <h3>NO2</h3>
+            </div>
+            <div class="pol pol-4">
+                <h3 class="so2"></h3>
+                <h3>SO2</h3>
+            </div>
+            <div class="pol pol-5">
+                <h3 class="pm2"></h3>
+                <h3>PM2.5</h3>
+            </div>
+
+    
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-aqi">
+            <div class="img">
+                <img src="./assets/images/aqi-1.png" alt="" srcset="">
+            </div>
+            <div class="info">
+                <h3>What is Air Quality Index?</h3>
+                <p>
+                    The Air Quality Index (AQI) is a measure used to report daily air quality, with higher 
+                    values indicating greater levels of air pollution and greater health concerns. The AQI 
+                    ranges from 0 to 500, and is divided into six categories, each corresponding to a different
+                     level of health concern and having a specific color. An AQI value of 50 or below
+                      represents good air quality, while values over 300 represent hazardous air quality.
+                </p>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="end">
+        <div class="moto">
+            <div class="plant-img">
+                <img src="./assets/images/plant.png" alt="">
+            </div>
+            <div class="quotation">
+               <p>Trees are the soul of our planet.</p> 
+               <p>Plant trees save Earth.</p> 
+            </div>
+        </div>
+       
+        <div class="contact">
+            
+                <div class="media">
+                    <a href="mailto:akshatsharma.21021501@gmail.com" target="__blank"><i class="far fa-envelope"></i></a>
+                    <a href=https://www.linkedin.com/in/akshat-sharma-638b16219/ target="__blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                        <a href=https://github.com/Akshat111111 target="__blank"><i class="fab fa-github"></i></a>
+                  </div>
+         
+          </div>
+          <h3 style="text-align: center;margin: 1% 0;">Developed by Akshat</h3>
+        
+    </section>
+   
+    <script src="config.js"></script>
+    <script src="server.js"></script>
+    
+</body>
+</html>
